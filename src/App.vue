@@ -2,9 +2,75 @@
   <!-- main flex -->
   <div id="app" class="flex">
     <!-- first col -->
-    <div class="w-20 flex-none flex flex-col min-h-screen h-screen">
+    <div class="bg-gray-900 w-20 flex-none flex flex-col min-h-screen h-screen px-2 py-2">
       <div class="overflow-y-auto">
-        logo
+        <ul class="text-center space-y-3 mt-2">
+          <li>
+            <a href="#">
+              <img class="w-12 h-12 bg-gray-800 hover:bg-gray-700 mx-auto rounded-full p-2" src="@/assets/imgs/discord.png" alt="discord-img" />
+            </a>
+          </li>
+          <li class="border-b border-gray-700 mx-4"></li>
+          <li>
+            <a href="#">
+              <img class="w-12 h-12 bg-orange-700 hover:bg-orange-600 mx-auto rounded-full p-2" src="@/assets/imgs/laravel.png" alt="discord-img" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="w-12 h-12 bg-green-100 hover:bg-green-50 mx-auto rounded-full p-2" src="@/assets/imgs/vue.png" alt="discord-img" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-2" 
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd" 
+                      d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" 
+                      clip-rule="evenodd">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-3" 
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd" 
+                      d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" 
+                      clip-rule="evenodd">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li class="border-b border-gray-700 mx-4"></li>
+          <li>
+            <a href="#">
+              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-3" 
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd"
+                      d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" 
+                      clip-rule="evenodd">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <!-- second col -->
