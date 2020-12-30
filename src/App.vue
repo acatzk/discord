@@ -4,7 +4,7 @@
     <!-- first col -->
     <div class="bg-gray-900 w-20 flex-none flex flex-col min-h-screen h-screen px-2 py-2">
       <div class="overflow-y-auto">
-        <ul class="text-center space-y-3 mt-2">
+        <ul class="text-center space-y-3">
           <li>
             <a href="#">
               <img class="w-12 h-12 bg-gray-800 hover:bg-gray-700 mx-auto rounded-full p-2 transition" src="@/assets/imgs/discord.png" alt="discord-img" />
@@ -80,7 +80,7 @@
         <div class="bg-gray-800 w-56 flex-none flex items-center justify-between px-3 p-2">
           <div class="font-semibold tracking-wide">Tailwind CSS</div>
           <button>
-            <svg  class="w-8 h-8" 
+            <svg  class="w-6 h-6" 
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -94,7 +94,7 @@
             </svg>
           </button>
         </div>
-        <div class="bg-gray-750 flex-1 flex items-center justify-between px-4 border-b border-gray-900">
+        <div class="bg-gray-750 flex-1 flex items-center justify-between px-4 border-b border-gray-900 h-12">
           <div class="flex items-center">
             <div class="text-gray-500 text-2xl">#</div>
             <div class="ml-2 text-sm text-white">general</div>
@@ -135,9 +135,9 @@
             </a>
             <a class="ml-4" href="#">
               <form>
-                <div class="relative flex">
+                <div class="relative">
                   <input  class="rounded bg-gray-900 text-gray-200 text-xs px-2 py-1 focus:outline-none" placeholder="Search" type="text" />
-                  <span class="absolute right-0 top-0 mt-1 mr-1">
+                  <span class="absolute right-0 top-0 mr-1 mt-1">
                     <svg  class="w-4 h-4 text-gray-400 hover:text-gray-200"
                           fill="currentColor" 
                           xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -188,10 +188,219 @@
       <!-- second col -->
       <div class="text-white flex-1 flex overflow-y-hidden">
         <div class="bg-gray-800 w-56 flex-none flex flex-col justify-between">
-          <div class="overflow-y-auto">
-            hastag sidebar Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi at a laboriosam voluptates cupiditate quis quia autem debitis inventore, accusantium minus. Autem, expedita vitae modi saepe, eaque ipsum a error quaerat accusantium hic cumque eius. Necessitatibus soluta repellendus dolorum laudantium quod exercitationem reprehenderit, ipsa voluptatem ab cum, amet, recusandae vero dignissimos dolores ratione illo natus! Minus unde quidem commodi odit quibusdam voluptates sunt quaerat fuga ad repellendus obcaecati perspiciatis tempore maxime voluptas, nihil amet sint. Quas, delectus. Saepe magnam quo repellendus aut perspiciatis minima fugiat quidem laudantium similique numquam optio impedit, velit nam omnis qui nemo ex ducimus. Praesentium dicta temporibus tempore eius molestiae repellat, corporis, facilis omnis tempora minima quibusdam? Culpa consequatur, veniam aperiam ab tempore reiciendis iusto, deleniti asperiores quam tenetur minus? Ullam repellendus temporibus eum in ipsum debitis harum placeat maxime ad exercitationem accusamus esse totam tempora cupiditate est adipisci delectus, corrupti facere autem deserunt eveniet quis illo. Quo sed facere animi labore possimus blanditiis deserunt fugiat ipsa unde, repellat aliquam consectetur accusantium nulla tenetur, odit, sint officia. Repudiandae delectus dolorum vel quis fuga est nemo incidunt magnam. Iusto similique maiores veniam mollitia libero dolorum hic soluta itaque ducimus exercitationem eos natus officiis deserunt quo necessitatibus, laborum reiciendis quae cumque, voluptate recusandae nisi id debitis. Repudiandae dicta debitis aliquam atque explicabo praesentium distinctio deleniti reiciendis voluptate, velit obcaecati at voluptatem ratione tempora voluptatum eligendi nisi quae saepe. Distinctio voluptate tempore corporis cupiditate optio minima suscipit, voluptas doloribus. Voluptatem, ipsam aperiam asperiores quo mollitia ipsum nulla. Eius, tempore.
+          <div class="overflow-y-auto text-sm">
+            <ul class="px-2 py-3">
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded transition">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">Welcome</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded transition">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">faq</span>
+                </a>
+              </li>
+            </ul>
+            <!-- Tailwind CSS List -->
+            <button class="flex items-center text-gray-500 hover:text-gray-200 focus:outline-none" @click="tailwindToggle = !tailwindToggle">
+              <svg  class="w-5 h-5" 
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path v-if="tailwindToggle" xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd" 
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                      clip-rule="evenodd"></path>
+                <path v-else xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <h3 class="uppercase tracking-wide font-semibold text-xs">Tailwind CSS</h3>
+            </button>
+            <div v-show="tailwindToggle">
+              <ul class="px-2 py-1">
+                <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded transition bg-gray-750">
+                  <a href="#" class="flex items-center justify-between">
+                    <div class="flex items-center">
+                      <span class="text-xl">#</span>
+                      <span class="ml-2 font-semibold text-gray-300">general</span>
+                    </div>
+                    <button class="focus:outline-none focus:ring-1 focus:ring-gray-500 rounded  text-gray-300">
+                      <svg  class="w-5 h-5" 
+                            fill="currentColor" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 20 20" 
+                            preserveAspectRatio="xMidYMid meet">
+                        <path xmlns="http://www.w3.org/2000/svg" 
+                              d="M8 9a3 3 0 100-6 3 3 0 000 6zm0 2a6 6 0 016 6H2a6 6 0 016-6zm8-4a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path>
+                      </svg>
+                    </button>
+                  </a>
+                </li>
+                <li v-for="(list, i) in tailwindList" :key="i" 
+                    class="text-gray-500 px-2 hover:bg-gray-900 rounded transition" 
+                    @mouseover="list.isHover = true" 
+                    @mouseleave="list.isHover = false">
+                  <a href="#" class="flex items-center justify-between">
+                    <div class="flex items-center">
+                      <span class="text-xl">#</span>
+                      <span class="ml-2" :class="list.title === 'course' || list.title === 'showcase' ? 'font-semibold text-gray-300' : ''">{{ list.title }}</span>
+                    </div>
+                    <button class="focus:outline-none focus:ring-1 focus:ring-gray-500 rounded" :class="list.isHover ? 'block' : 'hidden'">
+                      <svg  class="w-5 h-5" 
+                            fill="currentColor" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 20 20" 
+                            preserveAspectRatio="xMidYMid meet">
+                        <path xmlns="http://www.w3.org/2000/svg" 
+                              d="M8 9a3 3 0 100-6 3 3 0 000 6zm0 2a6 6 0 016 6H2a6 6 0 016-6zm8-4a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path>
+                      </svg>
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Community List -->
+            <button class="flex items-center text-gray-500 hover:text-gray-200 focus:outline-none" @click="communityToggle = !communityToggle">
+              <svg  class="w-5 h-5" 
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path v-if="communityToggle" xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd" 
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                      clip-rule="evenodd"></path>
+                <path v-else xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <h3 class="uppercase tracking-wide font-semibold text-xs">Community</h3>
+            </button>
+            <div v-show="communityToggle">
+              <ul class="px-2 py-1">
+                <li v-for="(list, i) in communityList" :key="i" 
+                    class="text-gray-500 px-2 hover:bg-gray-900 rounded transition" 
+                    @mouseover="list.isHover = true" 
+                    @mouseleave="list.isHover = false">
+                  <a href="#" class="flex items-center justify-between">
+                    <div class="flex items-center">
+                      <span class="text-xl">#</span>
+                      <span class="ml-2" :class="list.title === 'feedback' ? 'font-semibold text-gray-300' : ''">{{ list.title }}</span>
+                    </div>
+                    <button class="focus:outline-none focus:ring-1 focus:ring-gray-500 rounded" :class="list.isHover ? 'block' : 'hidden'">
+                      <svg  class="w-5 h-5" 
+                            fill="currentColor" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 20 20" 
+                            preserveAspectRatio="xMidYMid meet">
+                        <path xmlns="http://www.w3.org/2000/svg" 
+                              d="M8 9a3 3 0 100-6 3 3 0 000 6zm0 2a6 6 0 016 6H2a6 6 0 016-6zm8-4a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path>
+                      </svg>
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Off Topic -->
+            <button class="flex items-center text-gray-500 hover:text-gray-200 focus:outline-none" @click="offTopicToggle = !offTopicToggle">
+              <svg  class="w-5 h-5" 
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path v-if="offTopicToggle" xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd" 
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                      clip-rule="evenodd"></path>
+                <path v-else xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <h3 class="uppercase tracking-wide font-semibold text-xs">Off Topic</h3>
+            </button>
+            <div v-show="offTopicToggle">
+              <ul class="px-2 py-1">
+                <li v-for="(list, i) in offTopicList" :key="i" 
+                    class="text-gray-500 px-2 hover:bg-gray-900 rounded transition" 
+                    @mouseover="list.isHover = true" 
+                    @mouseleave="list.isHover = false">
+                  <a href="#" class="flex items-center justify-between">
+                    <div class="flex items-center">
+                      <span class="text-xl">#</span>
+                      <span class="ml-2" :class="list.title === 'random' ? 'font-semibold text-gray-300' : ''">{{ list.title }}</span>
+                    </div>
+                    <button class="focus:outline-none focus:ring-1 focus:ring-gray-500 rounded" :class="list.isHover ? 'block' : 'hidden'">
+                      <svg  class="w-5 h-5" 
+                            fill="currentColor" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 20 20" 
+                            preserveAspectRatio="xMidYMid meet">
+                        <path xmlns="http://www.w3.org/2000/svg" 
+                              d="M8 9a3 3 0 100-6 3 3 0 000 6zm0 2a6 6 0 016 6H2a6 6 0 016-6zm8-4a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path>
+                      </svg>
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="bg-gray-750">buttom</div>
+          <div class="bg-gray-850 flex items-center justify-between px-2 py-2">
+            <a href="#" class="flex items-center">
+              <div class="flex-shrink-0">
+                <img class="w-8 h-8 object-cover rounded-full" src="@/assets/imgs/avatar.jpg" alt="avatar">
+              </div>
+              <div class="ml-2 text-xs">
+                <div class="text-white">angryboy19</div>
+                <div class="text-gray-500 text-xxs">#56489</div>
+              </div>
+            </a>
+            <div class="flex items-center text-gray-500">
+              <a href="#" class="hover:text-gray-300">
+                <svg  class="w-5 h-5" 
+                      fill="currentColor" 
+                      xmlns:xlink="http://www.w3.org/1999/xlink" 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 20 20" 
+                      preserveAspectRatio="xMidYMid meet">
+                  <path xmlns="http://www.w3.org/2000/svg" 
+                        fill-rule="evenodd" 
+                        d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z" clip-rule="evenodd">
+                  </path>
+                </svg>
+              </a>
+              <a href="#" class="hover:text-gray-300 ml-3">
+                <svg  class="w-5 h-5" 
+                      fill="currentColor" 
+                      xmlns:xlink="http://www.w3.org/1999/xlink" 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 20 20" 
+                      preserveAspectRatio="xMidYMid meet">
+                  <path xmlns="http://www.w3.org/2000/svg" 
+                        d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z">
+                  </path>
+                </svg>
+              </a>
+              <a href="#" class="hover:text-gray-300 ml-3">
+                <svg  class="w-5 h-5" 
+                      fill="currentColor" 
+                      xmlns:xlink="http://www.w3.org/1999/xlink" 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 20 20" 
+                      preserveAspectRatio="xMidYMid meet">
+                  <path xmlns="http://www.w3.org/2000/svg" 
+                        fill-rule="evenodd" 
+                        d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" 
+                        clip-rule="evenodd">
+                  </path>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div class="flex-1 flex justify-between overflow-y-hidden">
@@ -211,10 +420,62 @@
 <script>
   export default {
     name: 'app',
-    props: {},
-    components: {},
     data () {
-      return {}
+      return {
+        tailwindToggle: true,
+        communityToggle: true,
+        offTopicToggle: true,
+        tailwindList: [
+          {
+            title: 'core-dev',
+            isHover: false
+          },
+          {
+            title: 'course',
+            isHover: false
+          },
+          {
+            title: 'plugins',
+            isHover: false
+          },
+          {
+            title: 'docs',
+            isHover: false
+          },
+          {
+            title: 'showcase',
+            isHover: false
+          },
+          {
+            title: 'help',
+            isHover: false
+          },
+        ],
+        communityList: [
+          {
+            title: 'feedback',
+            isHover: false
+          },
+          {
+            title: 'jobs',
+            isHover: false
+          }
+        ],
+        offTopicList: [
+          {
+            title: 'design',
+            isHover: false
+          },
+          {
+            title: 'development',
+            isHover: false
+          },
+          {
+            title: 'random',
+            isHover: false
+          }
+        ]
+      }
     }
   }
 </script>
