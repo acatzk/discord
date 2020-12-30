@@ -76,9 +76,114 @@
     <!-- second col -->
     <div class="flex flex-col min-h-screen h-screen">
       <!-- first col -->
-      <div class="bg-blue-300 flex">
-        <div class="bg-red-300 w-56 flex-none">Tailwind CSS</div>
-        <div>Rest of top bar</div>
+      <div class="flex text-white h-12">
+        <div class="bg-gray-800 w-56 flex-none flex items-center justify-between px-3 p-2">
+          <div class="font-semibold tracking-wide">Tailwind CSS</div>
+          <button>
+            <svg  class="w-8 h-8" 
+                  fill="currentColor" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  viewBox="0 0 20 20" 
+                  preserveAspectRatio="xMidYMid meet">
+              <path xmlns="http://www.w3.org/2000/svg" 
+                    fill-rule="evenodd" 
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                    clip-rule="evenodd">
+              </path>
+            </svg>
+          </button>
+        </div>
+        <div class="bg-gray-700 flex-1 flex items-center justify-between px-4">
+          <div class="flex items-center">
+            <div class="text-gray-500 text-2xl">#</div>
+            <div class="ml-2 text-sm text-white">general</div>
+            <div class="border-l pl-3 ml-3 border-gray-600 text-xs text-gray-400">general discussin of Tailwind CSS</div>
+          </div>
+          <div class="flex items-center">
+            <a class="ml-4" href="#">
+              <svg  class="w-6 h-6 text-gray-500 hover:text-gray-200 rounded-full"  
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zm0 16a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4" href="#">
+              <svg  class="w-6 h-6 text-gray-500 hover:text-gray-200 rounded-full"  
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zm-2.207 2.207L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
+              </svg>
+            </a>
+            <a class="ml-4" href="#">
+              <svg  class="w-6 h-6 text-gray-500 hover:text-gray-200 rounded-full"  
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" 
+                      d="M9 6a3 3 0 11-6 0 3 3 0 016 0zm8 0a3 3 0 11-6 0 3 3 0 016 0zm-4.07 11c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z">
+                </path>
+              </svg>
+            </a>
+            <a class="ml-4" href="#">
+              <form>
+                <div class="relative flex">
+                  <input  class="rounded bg-gray-900 text-gray-200 text-xs px-2 py-1 focus:outline-none" placeholder="Search" type="text" />
+                  <span class="absolute right-0 top-0 mt-1 mr-1">
+                    <svg  class="w-4 h-4 text-gray-400 hover:text-gray-200"
+                          fill="currentColor" 
+                          xmlns:xlink="http://www.w3.org/1999/xlink" 
+                          xmlns="http://www.w3.org/2000/svg" 
+                          viewBox="0 0 20 20"
+                          preserveAspectRatio="xMidYMid meet">
+                      <path xmlns="http://www.w3.org/2000/svg" 
+                            fill-rule="evenodd" 
+                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" 
+                            clip-rule="evenodd">
+                      </path>
+                    </svg>
+                  </span>
+                </div>
+              </form>
+            </a>
+            <a class="ml-4" href="#">
+              <svg  class="w-6 h-6 text-gray-500 hover:text-gray-200 rounded-full"  
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd" 
+                      d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z" 
+                      clip-rule="evenodd">
+                </path>
+              </svg>
+            </a>
+            <a class="ml-4" href="#">
+              <svg  class="w-6 h-6 text-gray-500 hover:text-gray-200 rounded-full" 
+                    fill="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 20 20" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" 
+                      fill-rule="evenodd" 
+                      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" 
+                      clip-rule="evenodd">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
       <!-- second col -->
       <div class="bg-green-300 flex-1 flex overflow-y-hidden">
