@@ -7,23 +7,23 @@
         <ul class="text-center space-y-3 mt-2">
           <li>
             <a href="#">
-              <img class="w-12 h-12 bg-gray-800 hover:bg-gray-700 mx-auto rounded-full p-2" src="@/assets/imgs/discord.png" alt="discord-img" />
+              <img class="w-12 h-12 bg-gray-800 hover:bg-gray-700 mx-auto rounded-full p-2 transition" src="@/assets/imgs/discord.png" alt="discord-img" />
             </a>
           </li>
           <li class="border-b border-gray-700 mx-4"></li>
           <li>
             <a href="#">
-              <img class="w-12 h-12 bg-orange-700 hover:bg-orange-600 mx-auto rounded-full p-2" src="@/assets/imgs/laravel.png" alt="discord-img" />
+              <img class="w-12 h-12 bg-orange-700 hover:bg-orange-600 mx-auto rounded-full p-2 transition" src="@/assets/imgs/laravel.png" alt="discord-img" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img class="w-12 h-12 bg-green-100 hover:bg-green-50 mx-auto rounded-full p-2" src="@/assets/imgs/vue.png" alt="discord-img" />
+              <img class="w-12 h-12 bg-green-100 hover:bg-green-50 mx-auto rounded-full p-2 transition" src="@/assets/imgs/vue.png" alt="discord-img" />
             </a>
           </li>
           <li>
             <a href="#">
-              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-2" 
+              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-2 transition" 
                     fill="currentColor" 
                     xmlns:xlink="http://www.w3.org/1999/xlink" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -39,7 +39,7 @@
           </li>
           <li>
             <a href="#">
-              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-3" 
+              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-3 transition" 
                     fill="currentColor" 
                     xmlns:xlink="http://www.w3.org/1999/xlink" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -56,7 +56,7 @@
           <li class="border-b border-gray-700 mx-4"></li>
           <li>
             <a href="#">
-              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-3" 
+              <svg  class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white mx-auto rounded-full p-3 transition" 
                     fill="currentColor" 
                     xmlns:xlink="http://www.w3.org/1999/xlink" 
                     xmlns="http://www.w3.org/2000/svg" 
