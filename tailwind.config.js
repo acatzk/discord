@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       colors: {
         orange: colors.orange,
-        teal: colors.teal
+        teal: colors.teal,
+        'gray-750': '#3f495a',
+        'gray-850': '#222733'
       }
     },
   },
