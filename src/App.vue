@@ -441,7 +441,7 @@
                 </svg>
               </button>
               <div class="flex-1">
-                <input type="text" class="w-full focus:outline-none text-sm h-10 px-2 py-2 bg-gray-700 text-gray-200 border-none border-gray-700">
+                <input type="text" class="w-full focus:outline-none text-sm h-10 px-2 py-2 bg-gray-700 text-gray-200 border-none border-gray-700" v-model="input" @keyup.enter="onSubmitChat">
               </div>
               <div class="bg-gray-700 h-10 px-2 py-2 rounded-r flex items-center">
                 <button class="bg-gray-700 h-10 px-2 py-2 border-l border-gray-750">
@@ -493,7 +493,9 @@
               </div>
             </div>
           </div>
-          <div class="flex-none w-56 bg-gray-700 overflow-y-auto">sidebar Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti unde eveniet saepe at sed nihil accusantium nam? Fuga minus necessitatibus omnis labore voluptas non adipisci ipsam sint iusto harum nobis aspernatur nemo doloremque ipsa eos qui perspiciatis repellat quia commodi, numquam hic sit et officia. Quae fuga voluptas quaerat nemo. Ducimus, praesentium, saepe voluptas officia officiis dolorem aperiam at exercitationem excepturi quasi delectus veritatis alias sit ullam fuga vero. Animi laborum cupiditate magni. Illum neque velit cumque numquam eius. Enim numquam minus autem quaerat consequatur expedita nihil dolore voluptates? Facilis tempore quasi cum? Explicabo recusandae maxime perspiciatis pariatur, dolor qui. Quaerat maiores pariatur sed corporis inventore excepturi. Sunt neque dignissimos doloremque ipsa officia rerum deserunt velit quisquam a explicabo consequatur consequuntur iure dolores veritatis, libero iusto assumenda mollitia possimus dolor labore voluptatibus! Nam quos veritatis atque corrupti incidunt nisi, neque est officiis. Officia distinctio facilis dignissimos! Nostrum deserunt saepe vitae eaque dolorem vel adipisci, eum hic. Ex, quas. Aliquid aliquam commodi voluptates. Perferendis facilis voluptate quo fugit. Id exercitationem ab laudantium, ipsam alias doloremque sunt sequi quas reprehenderit temporibus nostrum voluptate porro, quia ratione laborum voluptatum iure modi culpa. Vitae, saepe perferendis tempore, incidunt quibusdam iusto reiciendis, aliquam nostrum neque unde vero earum consequatur fugit numquam suscipit! Incidunt aliquam maxime beatae? A, deserunt. Quidem distinctio impedit laudantium. Sapiente possimus modi molestiae exercitationem, rem quis quae esse temporibus mollitia omnis eveniet dolorum eaque suscipit! Sunt consequuntur quidem commodi, velit quia, esse rem repellendus saepe incidunt obcaecati quod, amet excepturi. Quas?</div>
+          <div class="flex-none w-56 bg-gray-800 overflow-y-auto px-3 py-3">
+            
+          </div>
         </div>
       </div>
     </div>
@@ -505,6 +507,7 @@
     name: 'app',
     data () {
       return {
+        input: '',
         tailwindToggle: true,
         communityToggle: true,
         offTopicToggle: true,
@@ -668,6 +671,17 @@
             created_at: '01/02/2021'
           },
         ]
+      }
+    },
+    methods: {
+      onSubmitChat () {
+        this.posts.push({
+          username: 'angryboy19',
+          avatar: require('@/assets/imgs/avatar.jpg'),
+          caption: this.input,
+          created_at: '01/02/2021'
+        })
+        this.input = ''
       }
     }
   }
