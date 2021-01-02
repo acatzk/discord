@@ -74,7 +74,7 @@
       </div>
     </div>
     <!-- second col -->
-    <div class="flex flex-col min-h-screen h-screen">
+    <div class="flex-1 flex flex-col min-h-screen h-screen">
       <!-- first col -->
       <div class="flex text-white h-12 border-b border-gray-900">
         <div class="bg-gray-800 w-56 flex-none flex items-center justify-between px-3 p-2">
@@ -404,13 +404,28 @@
         </div>
 
         <div class="flex-1 flex justify-between overflow-y-hidden">
-          <div class="bg-gray-800 flex-1 flex flex-col justify-between">
-            <div class="overflow-y-auto">
-              main content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum amet, magnam eos eveniet ex provident! Reiciendis vel corporis libero laudantium quasi voluptates facilis, rem vitae illo nihil hic veritatis debitis reprehenderit. Voluptatum sunt assumenda provident aperiam officia harum. Eos beatae corporis perferendis magni expedita! Quasi quod reprehenderit expedita nesciunt omnis nobis cumque cum velit qui, tenetur, autem, quo vitae deserunt incidunt. Debitis vero corrupti in optio placeat maxime explicabo, possimus accusantium at nesciunt incidunt temporibus ratione impedit, totam quo laboriosam enim aperiam, eius voluptate commodi cum sint? Reiciendis quae dolores autem tenetur ratione asperiores culpa velit delectus voluptates saepe repudiandae similique, cumque repellat. Nihil nobis ut velit, exercitationem quod, porro est, minima veritatis omnis veniam rerum soluta? Sequi ab, omnis fuga praesentium voluptate quasi amet molestiae vero libero aliquid laborum deleniti in magnam architecto. Sit autem aliquid debitis eius dolorum facilis. Repellat et suscipit vero voluptatem neque? Qui impedit autem omnis, cum exercitationem corrupti, nihil consequatur adipisci dolor necessitatibus quam sequi sint et vel dolorum, perspiciatis natus laborum aliquam voluptatum neque nisi cumque distinctio ea. Odio iste eum aliquam sunt rem impedit, totam ipsa quia laboriosam explicabo incidunt accusamus aspernatur itaque, reprehenderit libero modi. Et eum blanditiis eligendi facilis fugit consequatur accusantium nam minima commodi eaque sapiente cupiditate iste, ad laboriosam velit, vero officia rerum explicabo modi? Quam error quia minus cum et possimus repudiandae consequuntur voluptas sunt veniam molestiae, voluptatibus magni quidem praesentium dolorum minima dicta distinctio nam nulla aliquid? Vero cum quasi dolorem eveniet, qui neque consectetur harum velit debitis maiores ratione mollitia ut numquam quod dolorum amet minus corporis perferendis? Molestiae dolorem laborum provident distinctio, nostrum et sit doloremque quam nulla, repellat eaque ullam libero odit, vitae fuga voluptatem perspiciatis quia blanditiis doloribus consequuntur. Esse, consequatur quaerat. Facilis maiores enim dolore numquam earum tempora fugiat cupiditate est, aut eaque veritatis aspernatur velit sit nesciunt ducimus quaerat ab saepe blanditiis voluptates vero nam pariatur odio! Aut a, non, possimus sed repudiandae ipsam doloribus deserunt dolor perferendis ea blanditiis amet dolores odit cumque quo. Possimus voluptate id veritatis enim fugiat magnam iusto exercitationem aliquam iste reiciendis maiores explicabo eligendi, eaque inventore? Quam iure at voluptate, voluptatum saepe perferendis. Animi earum quos repellendus blanditiis obcaecati id architecto, labore quo at voluptatem, vero excepturi, est consequatur ratione sequi. Asperiores, ducimus. Veritatis voluptas ea quod, tempore dolorem cum libero similique unde culpa ullam totam exercitationem tenetur fugiat perferendis eius vitae blanditiis reiciendis facere in voluptates architecto impedit magni. Enim aut, a nostrum inventore libero dolore autem quisquam voluptas dolorum eius alias commodi accusamus rem molestias vero eaque consectetur officiis. Hic dolorum alias eligendi laborum adipisci, velit porro corporis ullam non ut quae, repellat blanditiis reiciendis debitis provident iusto sequi fugit corrupti asperiores voluptatem dolor expedita iste? Vel tempora, sint distinctio eius aperiam facere quibusdam veniam asperiores veritatis odit voluptatum maiores ut quia delectus nobis inventore sed perspiciatis expedita beatae. Consectetur consequatur aliquam magni veritatis labore, possimus earum eveniet optio explicabo libero, laborum cumque dolor sequi reiciendis provident pariatur. Blanditiis voluptas, earum asperiores numquam officiis repellendus cumque velit exercitationem amet in at saepe facilis ipsum, praesentium distinctio molestias incidunt deserunt reprehenderit placeat voluptatibus fugiat? Labore commodi fuga dolore sint eligendi nobis error laboriosam quis, molestias aliquid numquam illum explicabo magnam, temporibus hic officiis impedit iusto! Odio, iusto facere cupiditate quis consectetur saepe dignissimos accusantium deserunt voluptate a enim neque aliquid unde dolores, facilis non eaque quisquam nam autem deleniti repellendus necessitatibus atque dolore. Soluta illum quod doloribus, fugit debitis dolor, corrupti, ex explicabo repellendus recusandae delectus. Cum quasi ipsa facilis sit maiores ducimus rem blanditiis, quibusdam consequuntur sunt debitis fuga, magni id repudiandae! Ipsam commodi praesentium temporibus possimus nostrum porro, autem odio, earum quos alias corporis consequuntur corrupti molestiae. Corrupti magnam, quaerat iusto rerum nostrum, asperiores alias iste et eaque est cumque sunt ex perferendis! Numquam perspiciatis aliquid earum distinctio excepturi doloribus ipsam sapiente, corporis, maxime consectetur, esse nostrum illum! Rerum ullam dolore iusto, illum saepe expedita! Sunt ullam modi incidunt aliquam tempora iste eos perspiciatis natus quam, quod odit velit fugit enim consequuntur nisi. Corporis maiores quibusdam, molestias nemo excepturi dignissimos et odio laborum suscipit consequuntur quisquam repudiandae deleniti voluptas amet blanditiis iusto? Maiores, fugit. Ad ipsa, adipisci sit similique voluptate obcaecati hic nesciunt, assumenda labore voluptates ducimus repellendus ex, at ipsum reiciendis explicabo nostrum in maiores accusamus omnis. Unde vero vitae perspiciatis nobis tempora, voluptates dolorem cumque non, enim reiciendis eaque, sapiente quas accusamus deleniti itaque aliquam? Praesentium, fugiat? Assumenda cupiditate quam aspernatur ratione ut quasi aperiam unde dignissimos exercitationem rem ea vel nisi, quas eius nulla voluptatum! Placeat, tenetur a! Tempora placeat dolorem illum sit assumenda, quaerat magni! Rerum minus illum obcaecati consequatur similique itaque possimus sit mollitia eius earum sint, quasi nam aspernatur fugit reprehenderit ducimus blanditiis laudantium. Dolores quibusdam necessitatibus est maxime corrupti sit, id placeat libero ut quidem beatae iure! Laborum esse, cum voluptas molestias autem earum assumenda velit modi quibusdam aliquam quia illum quae sint asperiores dolorum labore impedit nemo qui expedita suscipit? Omnis explicabo fuga, cumque unde, velit animi iusto sint sit esse quibusdam dolores magni ut et odit perspiciatis nihil dolore! Reprehenderit consectetur ut distinctio minus fuga minima officiis ea totam. In iure magni voluptatibus saepe repudiandae quos consequuntur ipsa excepturi corrupti incidunt autem, doloremque dicta voluptas atque laborum reiciendis, aliquid cum ad quasi expedita quia. Sequi voluptate tenetur consequatur repellendus, modi deserunt molestiae, aliquam doloremque a, provident corporis quas exercitationem ipsam reprehenderit soluta laboriosam placeat officia delectus ducimus officiis illum ab ipsum dolorum? Deleniti, laborum sapiente temporibus voluptates, quod laudantium, expedita veniam suscipit tenetur eveniet corporis voluptatibus et obcaecati doloremque dicta. Expedita perspiciatis quaerat neque corrupti fugiat architecto dolorum nam provident similique vel facere error molestias ipsam voluptatum quasi totam explicabo, debitis est maiores laborum placeat dolore quam fuga dicta! Ut maiores rerum, sint fugiat repellendus nesciunt doloribus doloremque quasi quisquam! Consequatur obcaecati illo quisquam praesentium accusantium odit perferendis ad rerum, harum ratione deserunt enim ea quos id architecto inventore nisi, ipsum nam maxime necessitatibus fugit distinctio sit? Reiciendis asperiores eius cum recusandae.
+          <div class="bg-gray-750 flex-1 flex flex-col justify-between">
+            <div class="overflow-y-auto text-sm text-gray-400">
+              <div class="flex mx-6 my-3 py-4 border-t border-gray-700" v-for="(post, i) in posts" :key="i">
+                <div class="flex-shrink-0">
+                  <a href="#">
+                    <img class="w-10 h-10 rounded-full bg-gray-850  object-cover" :src="post.avatar" alt="post.avatar">
+                  </a>
+                </div>
+                <div class="px-2 py-1 ml-2 bg-gray-700 rounded-lg">
+                  <div class="flex items-end">
+                    <a class="text-white hover:underline" href="#">{{ post.username }}</a>
+                    <span class="ml-2 text-gray-500 text-xs">{{ post.created_at }}</span>
+                  </div>
+                  <div class="mt-1 mb-1">
+                    <div>{{ post.caption }}</div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="bg-gray-700">bottom</div>
           </div>
-          <div class="flex-none w-56 bg-gray-800 overflow-y-auto">sidebar Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti unde eveniet saepe at sed nihil accusantium nam? Fuga minus necessitatibus omnis labore voluptas non adipisci ipsam sint iusto harum nobis aspernatur nemo doloremque ipsa eos qui perspiciatis repellat quia commodi, numquam hic sit et officia. Quae fuga voluptas quaerat nemo. Ducimus, praesentium, saepe voluptas officia officiis dolorem aperiam at exercitationem excepturi quasi delectus veritatis alias sit ullam fuga vero. Animi laborum cupiditate magni. Illum neque velit cumque numquam eius. Enim numquam minus autem quaerat consequatur expedita nihil dolore voluptates? Facilis tempore quasi cum? Explicabo recusandae maxime perspiciatis pariatur, dolor qui. Quaerat maiores pariatur sed corporis inventore excepturi. Sunt neque dignissimos doloremque ipsa officia rerum deserunt velit quisquam a explicabo consequatur consequuntur iure dolores veritatis, libero iusto assumenda mollitia possimus dolor labore voluptatibus! Nam quos veritatis atque corrupti incidunt nisi, neque est officiis. Officia distinctio facilis dignissimos! Nostrum deserunt saepe vitae eaque dolorem vel adipisci, eum hic. Ex, quas. Aliquid aliquam commodi voluptates. Perferendis facilis voluptate quo fugit. Id exercitationem ab laudantium, ipsam alias doloremque sunt sequi quas reprehenderit temporibus nostrum voluptate porro, quia ratione laborum voluptatum iure modi culpa. Vitae, saepe perferendis tempore, incidunt quibusdam iusto reiciendis, aliquam nostrum neque unde vero earum consequatur fugit numquam suscipit! Incidunt aliquam maxime beatae? A, deserunt. Quidem distinctio impedit laudantium. Sapiente possimus modi molestiae exercitationem, rem quis quae esse temporibus mollitia omnis eveniet dolorum eaque suscipit! Sunt consequuntur quidem commodi, velit quia, esse rem repellendus saepe incidunt obcaecati quod, amet excepturi. Quas?</div>
+          <div class="flex-none w-56 bg-gray-700 overflow-y-auto">sidebar Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti unde eveniet saepe at sed nihil accusantium nam? Fuga minus necessitatibus omnis labore voluptas non adipisci ipsam sint iusto harum nobis aspernatur nemo doloremque ipsa eos qui perspiciatis repellat quia commodi, numquam hic sit et officia. Quae fuga voluptas quaerat nemo. Ducimus, praesentium, saepe voluptas officia officiis dolorem aperiam at exercitationem excepturi quasi delectus veritatis alias sit ullam fuga vero. Animi laborum cupiditate magni. Illum neque velit cumque numquam eius. Enim numquam minus autem quaerat consequatur expedita nihil dolore voluptates? Facilis tempore quasi cum? Explicabo recusandae maxime perspiciatis pariatur, dolor qui. Quaerat maiores pariatur sed corporis inventore excepturi. Sunt neque dignissimos doloremque ipsa officia rerum deserunt velit quisquam a explicabo consequatur consequuntur iure dolores veritatis, libero iusto assumenda mollitia possimus dolor labore voluptatibus! Nam quos veritatis atque corrupti incidunt nisi, neque est officiis. Officia distinctio facilis dignissimos! Nostrum deserunt saepe vitae eaque dolorem vel adipisci, eum hic. Ex, quas. Aliquid aliquam commodi voluptates. Perferendis facilis voluptate quo fugit. Id exercitationem ab laudantium, ipsam alias doloremque sunt sequi quas reprehenderit temporibus nostrum voluptate porro, quia ratione laborum voluptatum iure modi culpa. Vitae, saepe perferendis tempore, incidunt quibusdam iusto reiciendis, aliquam nostrum neque unde vero earum consequatur fugit numquam suscipit! Incidunt aliquam maxime beatae? A, deserunt. Quidem distinctio impedit laudantium. Sapiente possimus modi molestiae exercitationem, rem quis quae esse temporibus mollitia omnis eveniet dolorum eaque suscipit! Sunt consequuntur quidem commodi, velit quia, esse rem repellendus saepe incidunt obcaecati quod, amet excepturi. Quas?</div>
         </div>
       </div>
     </div>
@@ -474,6 +489,116 @@
             title: 'random',
             isHover: false
           }
+        ],
+        posts: [
+          {
+            username: 'angryboy19',
+            avatar: require('@/assets/imgs/avatar.jpg'),
+            caption: 'Greetings of the Season and Best Wishes for a New Year.',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'onenight231',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.newsshare.in%2Fwp-content%2Fuploads%2F2017%2F04%2FMiniclip-8-Ball-Pool-Avatar-11.png&f=1&nofb=1',
+            caption: 'Happy Holidays. Best wishes for a season of love, peace and joy!',
+            created_at: '01/01/2021'
+          },
+          {
+            username: 'sadboy13',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ULYowpbnr0VtDEqJ6P7tfQHaHa%26pid%3DApi&f=1',
+            caption: 'Happy Holidays. Best wishes for a season of love, peace and joy!',
+            created_at: '01/01/2021'
+          },
+          {
+            username: 'whitehacker21',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.UcUOvyrg9xpEQuW_BkkllQHaHa%26pid%3DApi&f=1',
+            caption: 'Here’s to a season filled with warmth, comfort and good cheer!',
+            created_at: '12/31/2020'
+          },
+          {
+            username: 'girlybitch',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcms-assets.tutsplus.com%2Fuploads%2Fusers%2F107%2Fprofiles%2F2394%2FprofileImage%2Favatar-new400.jpg&f=1&nofb=1',
+            caption: 'Holiday Greetings and Best Wishes for a New Year of happiness in a world of peace',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'bosscat',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.dLKDCF7xkgEebmdzmeo6xQHaHa%26pid%3DApi&f=1',
+            caption: 'May you and your family enjoy all the warmth this season has to offer. Have a wonderful holiday and a new year filled with love.',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'angryboy19',
+            avatar: require('@/assets/imgs/avatar.jpg'),
+            caption: 'Greetings of the Season and Best Wishes for a New Year.',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'onenight231',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.newsshare.in%2Fwp-content%2Fuploads%2F2017%2F04%2FMiniclip-8-Ball-Pool-Avatar-11.png&f=1&nofb=1',
+            caption: 'Happy Holidays. Best wishes for a season of love, peace and joy!',
+            created_at: '01/01/2021'
+          },
+          {
+            username: 'sadboy13',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ULYowpbnr0VtDEqJ6P7tfQHaHa%26pid%3DApi&f=1',
+            caption: 'Happy Holidays. Best wishes for a season of love, peace and joy!',
+            created_at: '01/01/2021'
+          },
+          {
+            username: 'whitehacker21',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.UcUOvyrg9xpEQuW_BkkllQHaHa%26pid%3DApi&f=1',
+            caption: 'Here’s to a season filled with warmth, comfort and good cheer!',
+            created_at: '12/31/2020'
+          },
+          {
+            username: 'girlybitch',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcms-assets.tutsplus.com%2Fuploads%2Fusers%2F107%2Fprofiles%2F2394%2FprofileImage%2Favatar-new400.jpg&f=1&nofb=1',
+            caption: 'Holiday Greetings and Best Wishes for a New Year of happiness in a world of peace',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'bosscat',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.dLKDCF7xkgEebmdzmeo6xQHaHa%26pid%3DApi&f=1',
+            caption: 'May you and your family enjoy all the warmth this season has to offer. Have a wonderful holiday and a new year filled with love.',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'angryboy19',
+            avatar: require('@/assets/imgs/avatar.jpg'),
+            caption: 'Greetings of the Season and Best Wishes for a New Year.',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'onenight231',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.newsshare.in%2Fwp-content%2Fuploads%2F2017%2F04%2FMiniclip-8-Ball-Pool-Avatar-11.png&f=1&nofb=1',
+            caption: 'Happy Holidays. Best wishes for a season of love, peace and joy!',
+            created_at: '01/01/2021'
+          },
+          {
+            username: 'sadboy13',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ULYowpbnr0VtDEqJ6P7tfQHaHa%26pid%3DApi&f=1',
+            caption: 'Happy Holidays. Best wishes for a season of love, peace and joy!',
+            created_at: '01/01/2021'
+          },
+          {
+            username: 'whitehacker21',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.UcUOvyrg9xpEQuW_BkkllQHaHa%26pid%3DApi&f=1',
+            caption: 'Here’s to a season filled with warmth, comfort and good cheer!',
+            created_at: '12/31/2020'
+          },
+          {
+            username: 'girlybitch',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcms-assets.tutsplus.com%2Fuploads%2Fusers%2F107%2Fprofiles%2F2394%2FprofileImage%2Favatar-new400.jpg&f=1&nofb=1',
+            caption: 'Holiday Greetings and Best Wishes for a New Year of happiness in a world of peace',
+            created_at: '01/02/2021'
+          },
+          {
+            username: 'bosscat',
+            avatar: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.dLKDCF7xkgEebmdzmeo6xQHaHa%26pid%3DApi&f=1',
+            caption: 'May you and your family enjoy all the warmth this season has to offer. Have a wonderful holiday and a new year filled with love.',
+            created_at: '01/02/2021'
+          },
         ]
       }
     }
