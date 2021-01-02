@@ -494,7 +494,32 @@
             </div>
           </div>
           <div class="flex-none w-56 bg-gray-800 overflow-y-auto px-3 py-3">
-            
+            <h3 class="text-xs font-semibold uppercase tracking-wide text-gray-500">Core Team - 1</h3>
+            <ul class="mt-2">
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2 rounded transition">
+                <a href="#" class="flex items-center">
+                  <span>
+                    <a href="#">
+                      <img class="w-8 h-8 rounded-full object-cover" src="@/assets/imgs/avatar.jpg" alt="avatar">
+                    </a>
+                  </span>
+                  <span class="ml-2">angryboy19</span>
+                </a>
+              </li>
+            </ul>
+            <h3 class="mt-6 text-xs font-semibold uppercase tracking-wide text-gray-500">Online - 254</h3>
+            <ul class="mt-2">
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2 rounded transition" v-for="(post, i) in posts" :key="i">
+                <a href="#" class="flex items-center">
+                  <span>
+                    <a href="#">
+                      <img class="w-8 h-8 rounded-full object-cover" :src="post.avatar" alt="avatar">
+                    </a>
+                  </span>
+                  <span class="ml-2">{{ post.username }}</span>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
