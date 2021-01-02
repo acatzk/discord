@@ -136,7 +136,7 @@
             <a class="ml-4" href="#">
               <form>
                 <div class="relative">
-                  <input  class="rounded bg-gray-900 text-gray-200 text-xs px-2 py-1 focus:outline-none" placeholder="Search" type="text" />
+                  <input  class="rounded bg-gray-900 text-gray-200 text-xs px-2 py-1 focus:outline-none border-none" placeholder="Search" type="text" />
                   <span class="absolute right-0 top-0 mr-1 mt-1">
                     <svg  class="w-4 h-4 text-gray-400 hover:text-gray-200"
                           fill="currentColor" 
@@ -423,7 +423,75 @@
                 </div>
               </div>
             </div>
-            <div class="bg-gray-700">bottom</div>
+            <div class="bg-gray-750 h-24 mx-4 py-3 flex items-center border-t border-gray-500">
+              <button class="focus:outline-none bg-gray-700 h-10 px-2 py-2 rounded-l border-r border-gray-750">
+                <svg  class="h-6 w-6 text-gray-300 hover:text-white" 
+                      stroke="none" 
+                      fill="currentColor" 
+                      xmlns:xlink="http://www.w3.org/1999/xlink" 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 20 20" 
+                      preserveAspectRatio="xMidYMid meet" 
+                      data-attributes-set=",xmlns:xlink,xmlns,viewBox,preserveAspectRatio">
+                  <path xmlns="http://www.w3.org/2000/svg" 
+                        fill-rule="evenodd" 
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" 
+                        clip-rule="evenodd">
+                  </path>
+                </svg>
+              </button>
+              <div class="flex-1">
+                <input type="text" class="w-full focus:outline-none text-sm h-10 px-2 py-2 bg-gray-700 text-gray-200 border-none border-gray-700">
+              </div>
+              <div class="bg-gray-700 h-10 px-2 py-2 rounded-r flex items-center">
+                <button class="bg-gray-700 h-10 px-2 py-2 border-l border-gray-750">
+                  <svg  class="h-6 w-6 text-gray-300 hover:text-white" 
+                        stroke="none" 
+                        fill="currentColor" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 20 20" 
+                        preserveAspectRatio="xMidYMid meet" 
+                        data-attributes-set=",xmlns:xlink,xmlns,viewBox,preserveAspectRatio">
+                    <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z" clip-rule="evenodd">
+                    </path>
+                    <path xmlns="http://www.w3.org/2000/svg" d="M9 11H3v5a2 2 0 002 2h4v-7zm2 7h4a2 2 0 002-2v-5h-6v7z">
+                    </path>
+                  </svg>
+                </button>
+                <button class="bg-gray-700 h-10 px-2 py-2">
+                  <svg  class="h-6 w-6 text-gray-300 hover:text-white" 
+                        stroke="none" 
+                        fill="currentColor" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 20 20" 
+                        preserveAspectRatio="xMidYMid meet" 
+                        data-attributes-set=",xmlns:xlink,xmlns,viewBox,preserveAspectRatio">
+                    <path xmlns="http://www.w3.org/2000/svg" 
+                          fill-rule="evenodd" 
+                          d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd">
+                    </path>
+                  </svg>
+                </button>
+                <button class="bg-gray-700 h-10 px-2 py-2">
+                  <svg  class="h-6 w-6 text-gray-300 hover:text-white" 
+                        stroke="none" 
+                        fill="currentColor" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 20 20" 
+                        preserveAspectRatio="xMidYMid meet" 
+                        data-attributes-set=",xmlns:xlink,xmlns,viewBox,preserveAspectRatio">
+                    <path xmlns="http://www.w3.org/2000/svg" 
+                          fill-rule="evenodd" 
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z" 
+                          clip-rule="evenodd">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
           <div class="flex-none w-56 bg-gray-700 overflow-y-auto">sidebar Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti unde eveniet saepe at sed nihil accusantium nam? Fuga minus necessitatibus omnis labore voluptas non adipisci ipsam sint iusto harum nobis aspernatur nemo doloremque ipsa eos qui perspiciatis repellat quia commodi, numquam hic sit et officia. Quae fuga voluptas quaerat nemo. Ducimus, praesentium, saepe voluptas officia officiis dolorem aperiam at exercitationem excepturi quasi delectus veritatis alias sit ullam fuga vero. Animi laborum cupiditate magni. Illum neque velit cumque numquam eius. Enim numquam minus autem quaerat consequatur expedita nihil dolore voluptates? Facilis tempore quasi cum? Explicabo recusandae maxime perspiciatis pariatur, dolor qui. Quaerat maiores pariatur sed corporis inventore excepturi. Sunt neque dignissimos doloremque ipsa officia rerum deserunt velit quisquam a explicabo consequatur consequuntur iure dolores veritatis, libero iusto assumenda mollitia possimus dolor labore voluptatibus! Nam quos veritatis atque corrupti incidunt nisi, neque est officiis. Officia distinctio facilis dignissimos! Nostrum deserunt saepe vitae eaque dolorem vel adipisci, eum hic. Ex, quas. Aliquid aliquam commodi voluptates. Perferendis facilis voluptate quo fugit. Id exercitationem ab laudantium, ipsam alias doloremque sunt sequi quas reprehenderit temporibus nostrum voluptate porro, quia ratione laborum voluptatum iure modi culpa. Vitae, saepe perferendis tempore, incidunt quibusdam iusto reiciendis, aliquam nostrum neque unde vero earum consequatur fugit numquam suscipit! Incidunt aliquam maxime beatae? A, deserunt. Quidem distinctio impedit laudantium. Sapiente possimus modi molestiae exercitationem, rem quis quae esse temporibus mollitia omnis eveniet dolorum eaque suscipit! Sunt consequuntur quidem commodi, velit quia, esse rem repellendus saepe incidunt obcaecati quod, amet excepturi. Quas?</div>
         </div>
